@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Martel"); /* body default font */ 
+@import url("https://fonts.googleapis.com/css?family=Rock+Salt"); /* font for logo */
+@import url("https://fonts.googleapis.com/css?family=Bevan"); /* font for navigation */
+
+body{
+    font-family: 'Martel', serif;
+}
+.section{
+    background-color: #f1f1f1;
+    min-height: 40px;
+    width: 100%;
+}
+
+.inner-section{
+    background-color: #f1f1f1;
+    min-height: 40px;
+    width: 100%;
+}
+
+.logo{
+    margin-top: 20px;
+    height: 125px;
+}
+
+.logo-text{
+   font-family: 'Rock Salt', cursive;
+   font-size: 100px;
+}
+
+.navigation{
+    height: 40px;
+}
+.navbar-style a{
+    font-family: 'Bevan', cursive;
+    font-size: 15px;
+    color: black;  
+}
+
+.jumbotron{
+    margin-top: 10px;
+    padding: 5px;
+    background-color: white;
+}
+
+#myCarousel img{
+    width: 400px;
+    height: 550px;
+}
+
+.space{
+    margin-top: 20px;
+}
+.card {
+   -webkit-box-shadow: -1px -1px 5px 2px rgba(232,232,232,1);
+    -moz-box-shadow: -1px -1px 5px 2px rgba(232,232,232,1);
+    box-shadow: -1px -1px 5px 2px rgba(232,232,232,1);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-container {
+    padding: 5px;;
+}
+.posted-date{
+    margin-top: 6px;
+    font-size: 11px;
+    letter-spacing: 0.08rem;
+    margin-bottom: 0px;
+    color: #afafaf;
+}
+.blog-title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.blog-hash{
+    margin-top: 3px;
+    margin-bottom: 0px;
+    color: #afafaf;
+}
+.read-more{
+    font-size: 15px;
+}
+.read-more:hover{
+    font-size: 17px;
+}
+.footer{
+    margin-top: 10px;
+    -webkit-box-shadow: -1px -2px 5px 2px rgba(240,235,240,1);
+    -moz-box-shadow: -1px -2px 5px 2px rgba(240,235,240,1);
+    box-shadow: -1px -2px 5px 2px rgba(240,235,240,1);
+}
+.footer-left{
+    border-right: 1px solid black;
+    padding: 10px;
+}
+.footer-right{
+     padding: 20px;
+}
+.footer-navigation{
+    padding: 40px;
+    font-size: 20px;
+    font-family: 'Bevan', cursive;
+}
+
+.footer-navigation ul{
+     list-style-type: none;
+}
+
+.footer-navigation ul a{
+    display: block;
+    width: 60px;
+}
